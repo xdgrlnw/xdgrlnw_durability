@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "xdgrlnw_durability",
+	"version": "${version}",
+	"name": "[xdgrlnw] Simple Durability",
+	"description": "Show item durability in the tooltip.",
+	"authors": ["xdgrlnw"],
+	"contact": {
+		"sources": "https://github.com/xdgrlnw"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/xdgrlnw_durability/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"me.xdgrlnw.xdgrlnwSimpleDurability"
+		],
+		"client": [
+			"me.xdgrlnw.xdgrlnwSimpleDurabilityClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.20",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
