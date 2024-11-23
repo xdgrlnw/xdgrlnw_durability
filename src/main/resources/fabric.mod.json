@@ -2,13 +2,13 @@
 	"schemaVersion": 1,
 	"id": "xdgrlnw_durability",
 	"version": "${version}",
-	"name": "[xdgrlnw] Simple Durability",
+	"name": "Simple Durability",
 	"description": "Show item durability in the tooltip.",
 	"authors": ["xdgrlnw"],
 	"contact": {
-		"sources": "https://github.com/xdgrlnw"
+		"author": "https://github.com/xdgrlnw"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/xdgrlnw_durability/icon.png",
 	"environment": "client",
 	"entrypoints": {

@@ -14,9 +14,7 @@ public class xdgrlnwSimpleDurabilityClient implements ClientModInitializer {
 		int max = stack.getMaxDamage();
 		int cur = max - stack.getDamage();
 		return Text.translatable("item.durability", cur, max);
-
 	}
-
 	@Override
 	public void onInitializeClient() {
 		ItemTooltipCallback.EVENT.register((ItemStack stack, Item.TooltipContext context, TooltipType type, List<Text> lines) -> {
