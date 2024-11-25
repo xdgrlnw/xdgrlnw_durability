@@ -24,5 +24,6 @@ public class xdgrlnwSimpleDurabilityClient implements ClientModInitializer {
 			lines.add(Text.empty());
 			lines.add(durabilityText(stack));
 		});
+
 	}
 }
